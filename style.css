@@ -1,5 +1,4 @@
 body {
-	background-image: url(/api-pokemons/img/poke.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,6 +6,7 @@ body {
 	color: white;
 	margin: 0;
 	font-family: rubik;
+	background-image: url(/img/poke.jpg);
 }
 
 .container {
@@ -16,7 +16,7 @@ body {
 
 h1 {
 	text-align: center;
-	font-size: 54px;
+	font-size: 4px;
 }
 
 .pokedex {
@@ -29,7 +29,7 @@ h1 {
 .card {
 	list-style: none;
 	padding: 40px;
-	color: #222;
+	color: white;
 	text-align: center;
 	border-radius: 20px;
 	position: relative;
@@ -39,75 +39,14 @@ h1 {
 	content: "";
   display: block;
   width: 50%;
-  height: 45%;
-  border-radius: 100%;
-  background-image: url(/api-superherois/img/ball.png);
-  
-  opacity: .7;
+  height: 80%;
+  border-radius: 5%;
+  background-color: aliceblue;
+  opacity: .4;
   position: absolute;
   top: 15%;
   left: 25%;
 }
-
-/* .steel {
-	background-color: #f4f4f4;
-}
-
-.fire {
-	background-color: #FDDFDF;
-}
-
-.grass {
-	background-color: #DEFDE0;
-}
-
-.electric {
-	background-color: #FCF7DE;
-}
-
-.water, .ice {
-	background-color: #DEF3FD;
-}
-
-.ground {
-	background-color: #f4e7da;
-}
-
-.rock {
-	background-color: #d5d5d4;
-}
-
-.fairy {
-	background-color: #fceaff;
-}
-
-.poison {
-	background-color: #98d7a5;
-}
-
-.bug {
-	background-color: #f8d5a3;
-}
-
-.dragon {
-	background-color: #97b3e6;
-}
-
-.psychic {
-	background-color: #eaeda1;
-}
-
-.flying {
-	background-color: #F5F5F5;
-}
-
-.fighting {
-	background-color: #E6E0D4;
-}
-
-.normal {
-	background-color: #F5F5F5;
-} */
 
 .card:hover {
 	animation: bounce 0.5s linear;
@@ -116,7 +55,7 @@ h1 {
 .card-title {
 	text-transform: capitalize;
 	margin-bottom: 0px;
-	font-size: 32px;
+	font-size: 16px;
 	font-weight: normal;
 	position: relative;
 	z-index: 2;
@@ -124,7 +63,7 @@ h1 {
 
 .card-subtitle {
 	margin-top: 5px;
-	color: #666;
+	color: gray;
 	font-weight: lighter;
 	position: relative;
 	z-index: 2;
