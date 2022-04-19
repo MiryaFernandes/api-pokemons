@@ -6,7 +6,7 @@ body {
 	color: white;
 	margin: 0;
 	font-family: rubik;
-	background-image: url(/img/poke.jpg);
+	background-image: url(/img/pokeball.png);
 }
 
 .container {
@@ -29,7 +29,7 @@ h1 {
 .card {
 	list-style: none;
 	padding: 40px;
-	color: white;
+	color: black;
 	text-align: center;
 	border-radius: 20px;
 	position: relative;
@@ -41,7 +41,7 @@ h1 {
   width: 50%;
   height: 80%;
   border-radius: 5%;
-  background-color: aliceblue;
+  background-color: grey;
   opacity: .4;
   position: absolute;
   top: 15%;
